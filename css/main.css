@@ -19,7 +19,7 @@ h1, h2 {
 }
 button {
     padding: 10px;
-    background: linear-gradient(-30deg,#9a8357 0%, #42403d 65% , #a51818 40%);
+    background: linear-gradient(-30deg,#9a8357 0%, #42403d 60%,#ad6d6d 5%,  #a51818 35%);
     border-radius: 10%;
 }
 button a {
