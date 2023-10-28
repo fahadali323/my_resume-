@@ -46,3 +46,10 @@ button a {
     padding: 10px;
     font-size: 0.75rem;
 }
+.terms-privacy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
