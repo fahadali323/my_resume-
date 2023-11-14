@@ -6,21 +6,22 @@
     <title>Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="../css/contact.css" rel="stylesheet">
 </head>
 
 <body>
     <div class="container-fluid">
         <div class="row">
-            <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
-                <a class="navbar-brand" href="../index.html">Fahad Ali</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavbar">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark col-12">
+                <a class="navbar-brand item" href="../index.html">Fahad Ali</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"> <a class="nav-link" href="#">About Me</a> </li>
+                    <ul class="navbar-nav mx-auto"> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/aboutme.html">About Me</a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -33,46 +34,95 @@
                                 <a class="dropdown-item" href="#">Link 4</a>
                             </div>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="#">Experiences</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./contact.html">Get in Touch</a></li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/experiences.html">Experiences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/education.html">Education</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <span class="dot"></span>
+                            <a class="nav-link" href="../pages/contact.html">Get in Touch</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
-            <div class="container">
-                <div class="row">
-                    <form action="">
-                        <div class="form-group">
-                            <label for="firstname">First Name:</label>
-                            <input type="text" class="form-control" id="firstname" placeholder="First name"
-                                name="firstname">
-                        </div>
-                        <div class="form-group">
-                            <label for="lastname">Last Name:</label>
-                            <input type="text" class="form-control" id="lastname" placeholder="Last name"
-                                name="lastname">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <input type="text" class="form-control" id="message" placeholder="Message" name="message">
+        </div>
+    </div>
 
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                    </row>
+     <div class="container">
+        <div class="information">
+            <h1>Contact Me</h1>
+            <div class="contact">
+                <div class="address">
+                    <span class="dot_2"><span class="icon" ><img src="../assets/address.png" alt="address icon" /></span></span>
+                    <h5>Address</h5>
+                    <p>20 Sophia Ave,
+                        Union, NJ 07083
+                    </p>
+                </div>
+                <div class="phone">
+                    <span class="dot_2"><span class="icon" ><img src="../assets/call.png" alt="address icon" /></span></span>
+                    <h5>Phone</h5>
+                    <p>(908)-874-3233</p>
+                </div>
+                <div class="email">
+                    <span class="dot_2"><span class="icon" ><img src="../assets/email.png" alt="address icon" /></span></span>
+                    <h5>Email</h5>
+                    <p>afahad630@gmail.com</p>
                 </div>
             </div>
-            <footer class="footer page-footer font-small ">
-                <div class="container">
-                    <div class="row">
-                        <span class="text-muted">&copy; Fahad Ali, 2023 | Terms Of Use | Privacy Statement</span>
-                    </div>
-                </div>
-            </footer>
         </div>
+        <h3>Get in touch with me</h3>
+
+        <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname"></label>
+                    <input type="text" class="form-control" id="firstname" placeholder="First name"
+                        name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname"></label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Last name"
+                        name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="message"></label>
+                    <input type="text" class="form-control" id="message" placeholder="Message" name="message">
+
+                </div>
+                <button type="submit" id="button" class="btn btn-primary">SEND MESSAGE</button>
+            </form>
+        </div>
+          
+    </div>
+
+    <footer class="footer page-footer font-small">
+        <div class="container-2">
+            <div class="item item-1">FA</div>
+            <div class="item item-2">
+                <div class="terms-privacy">
+                    <div>Terms</div>
+                    <div>Privacy</div>
+                    <div>Cookies</div>
+                </div>
+                <div>&copy; Fahad Ali, 2023, All rights reserved</div>
+            </div>
+            <div class="item item-3">
+                <img class="facebook" src="../assets/facebook.png" alt="Facebook logo">
+                <img class="facebook" src="../assets/instagram.png" alt="instagram logo">
+                <img class="facebook"src="../assets/linkedin.png" alt="instgram logo">
+            </div>
+        </div>
+    </footer>
+    </footer>
         <!-- Javascript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
