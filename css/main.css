@@ -6,6 +6,10 @@ body {
   background-color: black;
 }
 
+.row {
+  position: fixed;
+  width:100%;
+}
 .nav-item{ 
   display:flex;
 }
@@ -76,7 +80,7 @@ button a:hover {
 }
 
 .footer {
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
