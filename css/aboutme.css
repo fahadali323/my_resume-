@@ -1,0 +1,58 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.topbar {
+    padding: 200px;
+    background-color: black;
+    color: white;
+    height: 40vh;
+    margin-left: 100px;
+}
+
+
+.bottombar {
+    display: flex;
+    height: 53vh;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+.left {
+    background-color: white;
+    color: black;
+    width: 60%;
+    padding-top: 250px;
+    padding-left: 200px;
+}
+
+.right {
+    background-color: #ceab65;
+    width: 40%;
+    padding: 40px;
+}
+.right:hover {
+    color:aliceblue;
+    background-color: black;
+}
+
+
+.right h3 {
+    margin: 20px;
+    text-align: left;
+}
+
+.par {
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.body h1 {
+    margin-bottom: 2px;
+    color:#ceab65;
+    margin-left: 100px; 
+}
