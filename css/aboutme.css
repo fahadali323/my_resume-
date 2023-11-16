@@ -17,7 +17,6 @@
 .bottombar {
     display: flex;
     height: 53vh;
-    background-color: blue;
     margin-left: 100px;
 }
 
