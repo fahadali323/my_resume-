@@ -1,3 +1,4 @@
+/* Default styling for larger screens */
 .body {
     display: flex;
     flex-direction: column;
@@ -11,9 +12,8 @@
     color: white;
     height: 40vh;
     margin-left: 100px;
-    margin-top:10px;
+    margin-top: 10px;
 }
-
 
 .bottombar {
     display: flex;
@@ -34,11 +34,11 @@
     width: 40%;
     padding: 40px;
 }
+
 .right:hover {
-    color:aliceblue;
+    color: aliceblue;
     background-color: black;
 }
-
 
 .right h3 {
     margin-left: 20px;
@@ -53,11 +53,11 @@
 
 .body h1 {
     margin-bottom: 2px;
-    color:#ceab65;
-    margin-left: 100px; 
+    color: #ceab65;
+    margin-left: 100px;
 }
-.footer {
 
+.footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -65,30 +65,65 @@
     color: #dadada;
     padding: 10px;
     font-size: 0.75rem;
-  }
+}
 
 .container-2 {
-  display: flex;
-  border-color: white;
-  justify-content: space-evenly;
+    display: flex;
+    border-color: white;
+    justify-content: space-evenly;
 }
+
 .item-1 {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .terms-privacy {
-  display:flex;
-  justify-content: space-evenly;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .item-3 {
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-between;
-  width: 30px;
-  height: 30px;
-  filter: invert(1);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
 }
-img{
+
+img {
     padding: 5px;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 768px) {
+    .body {
+        height: auto;
+    }
+
+    .topbar {
+        padding: 100px;
+        margin-left: 20px;
+    }
+
+    .bottombar {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .left {
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
 }
