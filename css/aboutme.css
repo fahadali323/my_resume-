@@ -5,7 +5,19 @@
     justify-content: space-between;
     height: 100vh;
 }
-
+.nav-item {
+    display: flex;
+  }
+  .dot {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
 .topbar {
     padding: 200px;
     background-color: black;

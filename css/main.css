@@ -37,16 +37,15 @@
 
 .nav-item {
   display: flex;
-  align-items: center;
 }
-
 .dot {
   margin-top: 10px;
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, #665DCD 0%, #5FA4E6 44.76%, #D2AB67 100%);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
   display: inline-block;
+  border-radius: 50%;
 }
 
 /* Additional styling for container-1 */
