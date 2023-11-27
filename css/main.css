@@ -90,7 +90,7 @@ button {
   margin-top: 15px;
   padding: 10px;
   border-radius: 2px;
-  background: linear-gradient(135deg, #F20606 0%, #3B3B3B 44.76%, #D2AB67 100%);
+  background: linear-gradient(135deg, #b16262 0%, #3B3B3B 44.76%, #D2AB67 100%);
   border-radius: 5%;
   cursor: pointer;
 }
@@ -154,4 +154,11 @@ img {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   color: white;
+}
+.card-title { 
+  color:white;
+}
+.btn {
+  color:black;
+  background-color: white;
 }
