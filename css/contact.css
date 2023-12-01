@@ -34,7 +34,7 @@ body {
 h1,
 h3 {
   text-align: center;
-  margin: 25px 0;
+  margin: 25px auto;
 }
 h5 {
   color: #ceab65;

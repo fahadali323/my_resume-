@@ -61,12 +61,14 @@
     color: black;
     font-weight: bold;
     text-align: left;
+    padding-bottom: 120px;
 }
 
 .body h1 {
     margin-bottom: 2px;
     color: #ceab65;
     margin-left: 100px;
+
 }
 
 .footer {
