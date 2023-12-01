@@ -1,9 +1,9 @@
-/*DEVELOPER: Fahad Ali, IS117-005, Fall , 2023 */
+/* Default styling for larger screens */
 .body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh; /* Use min-height instead of height */
 }
 .nav-item {
     display: flex;
@@ -37,7 +37,7 @@
     background-color: white;
     color: black;
     width: 60%;
-    padding-top: 250px;
+    padding-top: 15px;
     padding-left: 200px;
 }
 
@@ -70,6 +70,7 @@
 }
 
 .footer {
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -130,6 +131,26 @@ img {
         padding-left: 20px;
     }
 
+    .right {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .topbar {
+        padding: 50px;
+        margin-left: 10px;
+    }
+
+    .bottombar {
+        margin-left: 10px;
+    }
+
+    .left,
     .right {
         width: 100%;
         padding: 20px;
