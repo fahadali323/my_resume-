@@ -1,27 +1,14 @@
-/*DEVELOPER: Fahad Ali, IS117-005, Fall , 2023 */
+/* Base styles */
 body {
   background-color: black;
   color: white;
 }
+
 .nav-item {
   display: flex;
 }
 
-.dot {
-  margin-top: 10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, #665dcd 0%, #5fa4e6 44.76%, #d2ab67 100%);
-  display: inline-block;
-  border-radius: 50%;
-}
-
-body {
-  background-color: black;
-  color: white;
-}
-
+.dot,
 .dot_2 {
   margin-top: 10px;
   width: 20px;
@@ -31,14 +18,22 @@ body {
   display: inline-block;
   border-radius: 50%;
 }
+
+.dot_2 {
+  width: 50px;
+  height: 50px;
+}
+
 h1,
 h3 {
   text-align: center;
   margin: 25px auto;
 }
+
 h5 {
   color: #ceab65;
 }
+
 .address,
 .phone,
 .email {
@@ -49,26 +44,24 @@ h5 {
 .contact {
   display: flex;
   justify-content: space-evenly;
+  max-width: 100%;
 }
-.dot_2 {
-  margin-top: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 8px;
-  background: #ceab65;
-  display: inline-block;
-  border-radius: 50%;
+.contact div {
+  width: 33%;
 }
+
 .icon {
   display: flex;
   width: 30px;
   height: 30px;
   margin: 9px auto;
 }
+
 .form-control {
   color: white;
   background-color: rgba(12, 11, 11, 0.996);
 }
+
 #button {
   margin-top: 10px;
   width: 100%;
@@ -76,12 +69,13 @@ h5 {
   color: black;
   font-weight: bold;
 }
+
 #button:hover {
   background-color: black;
   color: white;
 }
 
-.row_2 { 
+.row_2 {
   width: 50%;
   margin: 10px auto;
   height: 400px;
@@ -103,9 +97,11 @@ h5 {
   border-color: white;
   justify-content: space-evenly;
 }
+
 .item-1 {
   font-size: 20px;
 }
+
 .terms-privacy {
   display: flex;
   justify-content: space-evenly;
@@ -120,6 +116,14 @@ h5 {
   height: 30px;
   filter: invert(1);
 }
+
 img {
   padding: 5px;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .row_2 {
+    width: 80%;
+  }
 }

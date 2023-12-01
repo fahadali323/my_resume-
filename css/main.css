@@ -6,8 +6,8 @@
 }
 
 .card {
-  width: 45%; /* Adjust the width as needed */
-  margin: 10px; /* Adjust the margin as needed */
+  width: 45%;
+  margin: 10px;
   background-color: #141619;
   border: 1px solid #2c3035;
   border-radius: 10px;
@@ -32,6 +32,7 @@
 .nav-item {
   display: flex;
 }
+
 .dot {
   margin-top: 10px;
   width: 20px;
@@ -54,12 +55,14 @@
   background-color: #141619;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: #ceab65;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h2, p {
+h2,
+p {
   padding-bottom: 40px;
 }
 
@@ -107,7 +110,6 @@ button a:hover {
   font-size: 0.75rem;
 }
 
-
 .container-2 {
   display: flex;
   border-color: white;
@@ -136,21 +138,32 @@ button a:hover {
 img {
   padding: 5px;
 }
+
 .arrow {
   border: solid rgb(255, 255, 255);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
 }
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
   color: white;
 }
-.card-title { 
-  color:white;
+
+.card-title {
+  color: white;
 }
+
 .btn {
-  color:black;
+  color: black;
   background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+
 }
