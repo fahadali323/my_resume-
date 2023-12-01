@@ -48,7 +48,7 @@ h5 {
 
 .contact {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .dot_2 {
   margin-top: 10px;
@@ -63,6 +63,7 @@ h5 {
   display: flex;
   width: 30px;
   height: 30px;
+  margin: 9px auto;
 }
 .form-control {
   color: white;
@@ -78,6 +79,12 @@ h5 {
 #button:hover {
   background-color: black;
   color: white;
+}
+
+.row_2 { 
+  width: 50%;
+  margin: 10px auto;
+  height: 400px;
 }
 
 .footer {
